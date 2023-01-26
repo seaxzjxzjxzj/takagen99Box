@@ -59,6 +59,12 @@ public class LiveChannelItem {
     }
 
     public ArrayList<String> getChannelUrls() {
+        channelUrls = channelUrls.replace("amp;", "");
+        channelUrls = channelUrls.replace("amp;", "");
+        channelUrls = channelUrls.replace("amp;", "");
+        channelUrls = channelUrls.replace("amp;", "");
+        channelUrls = channelUrls.replace("amp;", "");
+        channelUrls = channelUrls.replace("amp;", "");
         return channelUrls;
     }
 
